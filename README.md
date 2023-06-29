@@ -25,3 +25,11 @@ treatment strategies for stroke.
 10) bmi: body mass index
 11) smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
 12) stroke: 1 if the patient had a stroke or 0 if not
+
+#### Target Variable 
+Target 1. Stroke: Stroke history (0 = no stroke risk, 1 = stroke risk; target variable)
+
+#### Assumptions Considered
+The dataset at hand, sourced from Care Life hospital, encapsulates information pertaining to the health profiles of a vast array of individuals, encompassing data collected from a total of 5000 patients. In the interest of leveraging this data to derive valuable insights, we are poised to subject this dataset to a rigorous machine learning-based analysis, in order to glean a nuanced understanding of the underlying patterns and trends. Specifically, we will be utilizing machine learning algorithms to glean insights from historical health data, in an effort to inform and support a diverse set of stakeholders, including payers, providers and patients. Through the judicious application of machine learning techniques, we anticipate being able to derive meaningful, actionable insights from this rich and complex dataset, enabling us to better understand the health profiles of these 5000 patients, and in turn, facilitating more informed, personalized and effective healthcare interventions.
+From a pool of 10 variables, we have identified three key predictors: age, hypertension, and heart disease. Our objective is to predict the occurrence of stroke based on these variables.
+
