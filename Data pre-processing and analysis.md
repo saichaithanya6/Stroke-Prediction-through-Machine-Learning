@@ -18,6 +18,11 @@ a visual representation of the total count of stroke and non-stroke records in t
 
 ![image](https://github.com/saichaithanya6/Stroke-Prediction-through-Machine-Learning/assets/111531760/df06d83f-6436-4535-b81f-88feb19a2784)
 
-The figure indicates that the dataset suffers from an imbalance. To mitigate this problem, the Synthetic Minority Over-sampling Technique (SMOTE) has been utilized to 
+The above figure indicates that the dataset suffers from an imbalance. To mitigate this problem, the Synthetic Minority Over-sampling Technique (SMOTE) has been utilized to 
 balance the dataset.
 
+### Data Pre-Processing 
+Data preprocessing is a crucial step before model development to remove any unwanted noise and outliers from the dataset that could hinder the model's intended training. 
+This step involves identifying and addressing any factors that could potentially affect the model's efficiency. Once the relevant dataset is obtained, it is cleaned and 
+prepared for model development. The dataset contains twelve features, with the 'id' column being excluded as it does not contribute to model construction. Any missing values
+in the dataset are filled, and in this case, missing values in the 'BMI' column are filled using the mean of the column's data.
