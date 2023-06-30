@@ -7,5 +7,17 @@ eight different models, their performance is compared using metrics such as accu
 
 ![image](https://github.com/saichaithanya6/Stroke-Prediction-through-Machine-Learning/assets/111531760/c5e587c8-02a3-441d-af62-b3fbc74ad216)
 
+
+The missing values in the 'BMI' column are filled using the mean of the column's data.
+
 ![image](https://github.com/saichaithanya6/Stroke-Prediction-through-Machine-Learning/assets/111531760/040fbe91-f98a-41d7-98a5-27624e68f356)
+
+The data exhibits a significant imbalance in the number of stroke cases (1) compared to non-stroke cases (0), with a mere 249 rows containing the former while the latter
+comprises 4,861 rows. This disproportionality can potentially impact model accuracy, thereby requiring preprocessing of the data to balance the dataset. Figure 2 provides 
+a visual representation of the total count of stroke and non-stroke records in the target column before preprocessing.
+
+![image](https://github.com/saichaithanya6/Stroke-Prediction-through-Machine-Learning/assets/111531760/df06d83f-6436-4535-b81f-88feb19a2784)
+
+The figure indicates that the dataset suffers from an imbalance. To mitigate this problem, the Synthetic Minority Over-sampling Technique (SMOTE) has been utilized to 
+balance the dataset.
 
